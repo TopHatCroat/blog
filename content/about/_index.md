@@ -25,6 +25,8 @@ database systems such as MongoDB ​and Elastisearch​. I have a very good unde
 GNU/Linux​ and ​as my daily driver. I am fluent in speech and writing in English and 
 Croatian languages.
 
+***
+
 ### Work experience
 
 #### ShoutEm, Zagreb, Croatia ​- Full stack developer
@@ -53,12 +55,17 @@ I have worked on development of banking information system in Java. My responsib
 included developing banking solutions in accordance to customer specifications, testing of
 solutions, writing migration scripts and participation in meetings with clients.
 
+***
+
 ### Education 
 
-#### Faculty of Organization and Informatics, Varaždin, Croatia ​- Master of
-Informatics (in progress)
+#### Faculty of Organization and Informatics, Varaždin, Croatia ​- Master of Informatics (in progress)
 *September 2016 - Now*
+<br>
 Currently I’m working on my masters’ thesis named “Usage of Hyperledger platform”. The goal of this
 work is to develop an application based on blockchain technology with smart contracts.
-Faculty of Organization and Informatics, Varaždin, Croatia ​- Bachelor of Informatics
+
+#### Faculty of Organization and Informatics, Varaždin, Croatia ​- Bachelor of Informatics
 *September 2013 - August 2016*
+<br>
+Thesis: [Analysis and implementation of security exploits for Android OS](https://radovi.foi.hr/thesis/student/3206/downloadThesis)

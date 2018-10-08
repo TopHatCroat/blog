@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.antonio-martinovic.tk"
+baseurl = "https://www.antonio-martinovic.tk/"
 themesDir = "./themes"
 languageCode = "en-us"
 title = "Antonio Martinović Blog"
@@ -15,7 +15,7 @@ pygmentsStyle = "murphy"
 	name = "Antonio Martinović"
 	description = "My place to showcase my projects and host my blog posts"
 	bio = "Programmer & Tech Enthusiast"
-	avatar = "profile.png"
+    avatar = "profile.png"
 	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
