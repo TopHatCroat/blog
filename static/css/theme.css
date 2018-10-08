@@ -1,0 +1,50 @@
+:root {
+    --primary_color: #8e24aa;
+    --lighter_color: #ab47bc;
+    --light_color: #ba68c8;
+}
+
+nav.main-nav a {
+	color: var(--primary_color);
+}
+
+nav.main-nav a.cta {
+	background: var(--primary_color);
+}
+
+a,
+#title,
+#post-list a:hover,
+#post-list li:hover .dates,
+#title:hover {
+	text-decoration: none;
+	color: var(--lighter_color);
+	color: var(--primary_color);
+}
+
+p a { 
+	color: var(--primary_color); 
+}
+
+#archive-link:hover {
+	background: var(--primary_color);
+	color: #fff;
+	box-shadow: 0 0 0 1px var(--primary_color);
+}
+
+#archive-list li a:hover,#archive-list li:hover .dates {
+	color: var(--primary_color);
+}
+
+#post-list.archive.readmore a{
+	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
+	color: var(--primary_color);
+}
+
+a.symbol {
+    color: var(--light_color);
+}
+
+a.symbol:hover {
+    color: var(--lighter_color);
+}

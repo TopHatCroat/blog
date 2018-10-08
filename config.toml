@@ -1,0 +1,55 @@
+# Site settings
+baseurl = "https://www.antonio-martinovic.tk"
+themesDir = "./themes"
+languageCode = "en-us"
+title = "Antonio Martinović Blog"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-127132219-1"
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "blog-44bswqkyC"
+enableRobotsTXT = true
+pygmentsStyle = "murphy"
+
+[params]
+	name = "Antonio Martinović"
+	description = "My place to showcase my projects and host my blog posts"
+	bio = "Programmer & Tech Enthusiast"
+	avatar = "profile.png"
+	enableRSS = true
+
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = ["css/theme.css"]
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "I'm an eager full stack developer"
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+	email = "antonio.martinovic@pm.me"
+    github   = "https://www.github.com/TopHatCroat"
+    linkedin  = "https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/"
+    stackoverflow  = "https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87"
