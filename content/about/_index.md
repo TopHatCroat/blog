@@ -30,27 +30,26 @@ Croatian languages.
 ### Work experience
 
 #### ShoutEm, Zagreb, Croatia ​- Full stack developer
-*May 2018 - Now*
+*May 2018 - Now*<br>
 My involvment with the company involves fixing issues and developing new features for 
 an mobile application development service. My scope was development of backend services
 using NodeJS and Express, frontend development using React and mobile development using 
 React Native with a bit of work in Cordova and .Net also.
 
 #### Inceptum d.o.o., Zagreb, Croatia ​- Android developer
-*March 2017 - April 2018*
+*March 2017 - April 2018*<br>
 Work included development of Android applications and web services, alone and in a team. I
 have successfully implemented two Android projects and I am currently working on a project
 involving React Native for multiplatform development and TensorFlow for machine learning
 and object recognition.
 
-#### Faculty of Organization and Informatics, Varaždin, Croatia ​- Information Systems
-Security course demonstrator
-*October 2017 - February 2018*
+#### Faculty of Organization and Informatics, Varaždin, Croatia ​- Information Systems Security course demonstrator
+*October 2017 - February 2018*<br>
 I have thought my student colleagues about computer, application and network securities and
 lead exercises for exams
 
 #### ABIT d.o.o., Varaždin, Croatia ​- Junior Java developer
-*May 2016 - February 2017*
+*May 2016 - February 2017*<br>
 I have worked on development of banking information system in Java. My responsibilities
 included developing banking solutions in accordance to customer specifications, testing of
 solutions, writing migration scripts and participation in meetings with clients.
@@ -60,7 +59,7 @@ solutions, writing migration scripts and participation in meetings with clients.
 ### Education 
 
 #### Faculty of Organization and Informatics, Varaždin, Croatia ​- Master of Informatics (in progress)
-*September 2016 - Now*
+*September 2016 - Now*<br>
 <br>
 Currently I’m working on my masters’ thesis named “Usage of Hyperledger platform”. The goal of this
 work is to develop an application based on blockchain technology with smart contracts.

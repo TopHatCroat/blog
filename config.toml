@@ -9,12 +9,15 @@ googleAnalytics = "UA-127132219-1"
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "blog-44bswqkyC"
 enableRobotsTXT = true
-pygmentsStyle = "murphy"
+PygmentsCodeFences = true
+PygmentsStyle = "monokailight"
 
 [params]
 	name = "Antonio Martinović"
-	description = "My place to showcase my projects and host my blog posts"
+	title = "Programming and Linux blog by Antonio Martinović"
+	description = "My place to write about interesting stuff and tutorials about programing, tech and Linux"
 	bio = "Programmer & Tech Enthusiast"
+	images = "images/profile.png"
     avatar = "profile.png"
 	enableRSS = true
 
@@ -50,6 +53,6 @@ pygmentsStyle = "murphy"
 # Add additional social link entries underneath
 [social]
 	email = "antonio.martinovic@pm.me"
-    github   = "https://www.github.com/TopHatCroat"
+    github = "https://www.github.com/TopHatCroat"
     linkedin  = "https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/"
     stackoverflow  = "https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87"
