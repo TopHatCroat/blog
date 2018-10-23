@@ -7,7 +7,7 @@ theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-127132219-1"
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "blog-44bswqkyC"
+disqusShortname = "blog-44bswqkyc5"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 PygmentsStyle = "monokailight"
