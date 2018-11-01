@@ -1,15 +1,15 @@
 :root {
-    --primary_color: #8e24aa;
-    --lighter_color: #ab47bc;
-    --light_color: #ba68c8;
+    --primary-color: #8e24aa;
+    --lighter-color: #ab47bc;
+    --light-color: #ba68c8;
 }
 
 nav.main-nav a {
-	color: var(--primary_color);
+	color: var(--primary-color);
 }
 
 nav.main-nav a.cta {
-	background: var(--primary_color);
+	background: var(--primary-color);
 }
 
 a,
@@ -18,33 +18,34 @@ a,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
-	color: var(--lighter_color);
-	color: var(--primary_color);
+	color: var(--lighter-color);
+	color: var(--primary-color);
 }
 
 p a { 
-	color: var(--primary_color); 
+	color: var(--primary-color); 
 }
 
 #archive-link:hover {
-	background: var(--primary_color);
+	background: var(--primary-color);
 	color: #fff;
-	box-shadow: 0 0 0 1px var(--primary_color);
+	box-shadow: 0 0 0 1px var(--primary-color);
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
-	color: var(--primary_color);
+	color: var(--primary-color);
 }
 
 #post-list.archive.readmore a{
 	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: var(--primary_color);
+	color: var(--primary-color);
 }
 
 a.symbol {
-    color: var(--light_color);
+    color: var(--light-color);
 }
 
 a.symbol:hover {
-    color: var(--lighter_color);
+    color: var(--lighter-color);
 }
+

@@ -650,6 +650,10 @@ h2.month {
     justify-content: center;
 }
 
+#social a {
+	margin: 8px;
+}
+
 a.symbol {
     color: #cdd4da;
     font-size: 2rem;
@@ -669,3 +673,4 @@ a.symbol:hover {
 	margin-left: 12px;
 	margin-right: 12px;
 }
+
