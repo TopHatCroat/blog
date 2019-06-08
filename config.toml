@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.antonio-martinovic.tk/"
+baseurl = "https://martinovic.blog/"
 themesDir = "./themes"
 languageCode = "en-us"
 title = "Antonio Martinović Blog"
