@@ -5,9 +5,6 @@ tags = [
     "blog",
 ]
 date = "2018-10-08"
-categories = [
-    "Meta",
-]
 +++
 
 ### Well, hello there
@@ -16,3 +13,4 @@ Welcome to my blog, this is going to be a place for me to share what and how I u
 
 
 #### Stay tuned!
+

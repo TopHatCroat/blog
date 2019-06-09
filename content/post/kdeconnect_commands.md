@@ -3,18 +3,17 @@ title = "KDE Connect commands"
 description = "Use your Android phone to send commands to your computer"
 tags = [
     "kde connect",
-    "Linux"
+    "workflow"
 ]
 date = "2018-10-20"
-categories = [
-]
 +++
+
 # KDE Connect useful commands
 
 So I've been using KDE Connect Android application for a while now due to it's great intergration KDE Plasma desktop. It allows you send files over, share your clipboard, sync notifications and has other usefull features like remote control using the phones screen as a touchpad or keyboard on your computer which is greatly apreciated feature for when you just couln't be asked to reach for your mouse to select the next YouTube video to play.
 
 One feature which requires a bit of effort to get the most of it are commands. KDE Connect gives you an option to add named shortcuts for arbitrary commands to run on your computer from your phone!
-The simplest example of this would be to have a shortcut named "Suspend" and a command which states `systemctl suspend`. You guessed it, it would put the computer to sleep. So, as you can imagine, this is quite a powerful feature. 
+The simplest example of this would be to have a shortcut named "Suspend" and a command which states `systemctl suspend`. You guessed it, it would put the computer to sleep. So, as you can imagine, this is quite a powerful feature.
 
 
 These are some of the commands that I use:
@@ -62,4 +61,5 @@ qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/Brigh
 
 In case you are wondering from where did I get these beautifully long commands, you can find them yourself using *qdbus* or if you prefer GUI tools then there is *qdbusviewer*. To be fair, it's easier to use the GUI tool if you don't know what you are looking for because these commands sometimes well hidden or duplicated. 
 
-In short, these are [DBus](https://www.freedesktop.org/wiki/Software/dbus/) commands, *DBus* is a software serial bus used to send messages from one application to another. Obviously, some of these commands are specific to KDE, so you would need to dig in to find their counterparts for Gnome or any other DE, but if you do, please do leave them in comments for others to use.  
+In short, these are [DBus](https://www.freedesktop.org/wiki/Software/dbus/) commands, *DBus* is a software serial bus used to send messages from one application to another. Obviously, some of these commands are specific to KDE, so you would need to dig in to find their counterparts for Gnome or any other DE, but if you do, please do leave them in comments for others to use.
+
