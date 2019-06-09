@@ -4,9 +4,7 @@ themesDir = "./themes"
 languageCode = "en-us"
 title = "Antonio Martinović Blog"
 theme = "hugo-cactus-theme"
-# Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-127132219-1"
-# Disable comments by leaving disqusShortname empty
 disqusShortname = "blog-44bswqkyc5"
 enableRobotsTXT = true
 PygmentsCodeFences = true
@@ -47,13 +45,13 @@ PygmentsStyle = "monokailight"
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "mono-social"
-    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-    socialIconStyle = "circle"
+	# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+	socialIconStyle = "circle"
 
 # Add additional social link entries underneath
 [social]
 	email = "antonio.martinovic@pm.me"
-    github = "https://www.github.com/TopHatCroat"
-    linkedin  = "https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/"
-    stack-overflow  = "https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87"
+	github = "https://www.github.com/TopHatCroat"
+	linkedin  = "https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/"
+	stack-overflow  = "https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87"
 	mastodon = "mastodon.social/@sike"
