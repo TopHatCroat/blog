@@ -15,7 +15,7 @@ PygmentsStyle = "monokailight"
 	title = "Programming and Linux blog by Antonio Martinović"
 	description = "My place to write about interesting stuff and tutorials about programing, tech and Linux"
 	bio = "Programmer & Tech Enthusiast"
-	images = "images/profile.png"
+	images = ["images/profile.png"]
     avatar = "profile.png"
 	enableRSS = true
 
