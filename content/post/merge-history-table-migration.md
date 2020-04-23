@@ -114,4 +114,4 @@ The Postgres operator that helps us a bunch here is `&&` which returns `true` if
 > If you want to keep the name of one of the older tables and merge the data of the other history table into it, the simplest way to achieve this is to create a new history table anyway, and afterwards delete the old table and rename the new one.
 
 When I first thought about how to do this, I imagined the solution will be much more trouble, but as I played around with test data, it turned out to be quite a simple one to do.
-
+If you want to play around with this, you can use [this repo](https://github.com/TopHatCroat/history-migration)
