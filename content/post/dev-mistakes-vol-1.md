@@ -6,11 +6,14 @@ tags = [
 	"opinion"
 ]
 date = "2021-05-04"
+[_build]
+list = false
+render = false
 +++
 
 ### You don't need a new stack (probably)
 
-Let's imagine you are a lead dev in a small company building a an application that is used by a few hundred customers.
+Let's imagine you are a lead dev in a small company building an application that is used by a few hundred customers.
 The application stack is just a server running your code and a database.
 Simple, but you can actually do quite a bit with just these two.
 
