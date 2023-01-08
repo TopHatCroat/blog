@@ -20,10 +20,6 @@
   {{ else }}
       <h2 class="read-more">{{ i18n "readMore" }}</h2> 
   {{ end }}
-
-  
-
-
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
