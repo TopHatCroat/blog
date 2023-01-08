@@ -27,7 +27,7 @@ Features:
 > ```
 > $ go version
 > ```
->  Go modules were considered production ready in v1.14. [Download Go](https://golang.org/dl/). 
+>  Go modules were considered production ready in v1.14. [Download Go](https://golang.org/dl/).
 
 1. From your project's root directory, initiate the hugo module system if you haven't already:
 
@@ -38,7 +38,7 @@ Features:
 2. Add the theme's repo to your `config.yaml`:
 
     ```yaml
-    theme: 
+    theme:
        - github.com/nodejh/hugo-theme-mini
     ```
 
@@ -68,7 +68,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 Take a look inside the [`exampleSite`](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml). To use it, copy the [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
-> ⚠️ You may need to delete the line: `themesDir: ../../` 
+> ⚠️ You may need to delete the line: `themesDir: ../../`
 
 ### 2.2 Default Content Language
 
@@ -82,7 +82,7 @@ Default is `en`. Now support:
 
 - `en`: English
 - `zh`: Chinese
-- `nl`: Dutch 
+- `nl`: Dutch
 - `fr`: French
 - `es`: Spanish
 
@@ -197,15 +197,17 @@ Mathematical notation is enabled by [KaTeX](https://katex.org/).
 - To enable KaTex globally set the parameter `math` to `true` in project’s configuration
 - To enable KaTex on a per page basis include the parameter `math` to `true` in content files
 
-### 3.5 Hidden Post Summary in Home Page 
+### 3.5 Post Summary in Home Page
 
-To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage` to `true`, default is `false`.
+Set `hiddenPostSummaryInHomePage` to `true` to show the first paragraph on the index page, default is `false`.
 
 For example:
 
 ```yaml
 hiddenPostSummaryInHomePage: true
 ```
+
+Alternatively, you can add a `description` in the Front Matter to provide bespoke summary.
 
 ## License
 

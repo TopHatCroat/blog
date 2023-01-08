@@ -8,6 +8,7 @@
         {{ $title := .Title }}
         {{ $summary := .Summary }}
         <section class="item">
+          <hr>
           <div>
             <h1 class="title"><a href='{{ .RelPermalink }}'>{{ $title }}</a></h1>
             <div class ="date">
@@ -17,6 +18,10 @@
 
           {{ if ne .Site.Params.hiddenPostSummaryInHomePage true }}
               <div class="summary">{{ $summary | plainify | htmlUnescape }}</div>
+          {{ else }}
+            {{ if ne .Description "" }}
+            <div class="summary">{{ .Description }}</div>
+            {{ end }}
           {{ end }}
 
         </section>
