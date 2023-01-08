@@ -1,51 +1,70 @@
 :root {
-    --primary-color: #8e24aa;
-    --lighter-color: #ab47bc;
-    --light-color: #ba68c8;
-}
-
-nav.main-nav a {
-	color: var(--primary-color);
-}
-
-nav.main-nav a.cta {
-	background: var(--primary-color);
+	--primary-color: #8e24aa;
+	--lighter-color: #ab47bc;
+	--light-color: #ba68c8;
 }
 
 a,
-#title,
-#post-list a:hover,
-#post-list li:hover .dates,
-#title:hover {
-	text-decoration: none;
-	color: var(--lighter-color);
+#list-page .title a,
+nav.navigation a {
 	color: var(--primary-color);
 }
 
-p a { 
-	color: var(--primary-color); 
+a:hover,
+#list-page .title a:hover,
+nav.navigation a:hover,
+#tags .tag a:hover,
+#single .tags a:hover {
+	color: var(--light-color);
 }
 
-#archive-link:hover {
+nav.navigation a.button {
 	background: var(--primary-color);
-	color: #fff;
-	box-shadow: 0 0 0 1px var(--primary-color);
 }
 
-#archive-list li a:hover,#archive-list li:hover .dates {
-	color: var(--primary-color);
+nav.navigation a.button:hover {
+	background: var(--light-color);
+	color: white;
 }
 
-#post-list.archive.readmore a{
-	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: var(--primary-color);
-}
+/*nav.main-nav a.cta {*/
+/*	background: var(--primary-color);*/
+/*}*/
 
-a.symbol {
-    color: var(--light-color);
-}
+/*a,*/
+/*#list-page .title a,*/
+/*#post-list a:hover,*/
+/*#post-list li:hover .dates,*/
+/*.title:hover {*/
+/*	text-decoration: none;*/
+/*	color: var(--primary-color);*/
+/*}*/
 
-a.symbol:hover {
-    color: var(--lighter-color);
-}
+/*p a { */
+/*	color: var(--primary-color); */
+/*}*/
+
+/*#archive-link:hover {*/
+/*	background: var(--primary-color);*/
+/*	color: #fff;*/
+/*	box-shadow: 0 0 0 1px var(--primary-color);*/
+/*}*/
+
+/*#archive-list li a:hover,*/
+/*#archive-list li:hover .dates {*/
+/*	color: var(--primary-color);*/
+/*}*/
+
+/*#post-list.archive.readmore a{*/
+/*	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;*/
+/*	color: var(--primary-color);*/
+/*}*/
+
+/*a.symbol {*/
+/*    color: var(--light-color);*/
+/*}*/
+
+/*a.symbol:hover {*/
+/*    color: var(--lighter-color);*/
+/*}*/
 

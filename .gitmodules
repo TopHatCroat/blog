@@ -1,3 +1,9 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/TopHatCroat/tophatcroat.github.io
+[submodule "themes/black-and-light"]
+	path = themes/black-and-light
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git
+[submodule "themes/mini"]
+	path = themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini.git

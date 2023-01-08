@@ -1,9 +1,10 @@
 # Site settings
 baseurl = "https://martinovic.blog/"
 themesDir = "./themes"
-languageCode = "en-us"
+languageCode = "en-gb"
+defaultContentLanguage = "en-gb"
 title = "Antonio Martinović Blog"
-theme = "hugo-cactus-theme"
+theme = "mini"
 googleAnalytics = "UA-127132219-1"
 disqusShortname = "blog-44bswqkyc5"
 enableRobotsTXT = true
@@ -11,47 +12,42 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokailight"
 
 [params]
-	name = "Antonio Martinović"
-	title = "Programming and Linux blog by Antonio Martinović"
-	description = "My place to write about interesting stuff and tutorials about programing, tech and Linux"
-	bio = "Programmer & Tech Enthusiast"
-	images = ["images/profile.png"]
-    avatar = "profile.png"
-	enableRSS = true
+author = "Antonio Martinović"
+title = "Blog by Antonio Martinović"
+description = "My place to write about interesting stuff and tutorials about programing, tech and leadership"
+bio = "Software engineer & tech Enthusiast"
+images = ["images/profile.png"]
+avatar = "profile.png"
+enableRSS = true
 
-	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
-	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
-	customCSS = ["css/theme.css"]
-	customJS  = []
+# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+customCSS = ["css/theme.css"]
+customJS  = []
 
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
+# The variables below are optionally too and can be used to
+# translate or customize each string of the theme.
 
-	# Navigation links
-	home = ""
-	subscribe = ""
-	# Pagination links
-	olderPosts = ""
-	newerPosts = ""
-	readMore = ""
-	copyright = ""
-	# Sharing options and author information in posts
-	aboutAuthor = "I'm an eager full stack developer"
-	tweet = ""
-	share = ""
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "mono-social"
-	# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-	socialIconStyle = "circle"
+# Navigation links
+home = ""
+subscribe = ""
+# Pagination links
+olderPosts = ""
+newerPosts = ""
+readMore = ""
+copyright = ""
+# Sharing options and author information in posts
+aboutAuthor = "I'm an eager full stack developer"
+tweet = ""
+share = ""
+# 404 page
+title404 = ""
+subtitle404 = ""
 
 # Add additional social link entries underneath
 [social]
-	email = "antonio.martinovic@pm.me"
-	github = "https://www.github.com/TopHatCroat"
-	linkedin  = "https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/"
-	stack-overflow  = "https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87"
-	mastodon = "mastodon.social/@sike"
+email = "mailto:antonio.martinovic@pm.me"
+github = "https://www.github.com/TopHatCroat"
+linkedin  = "https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/"
+stackoverflow  = "https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87"
+mastodon = "https://mastodon.social/@sike"
