@@ -152,17 +152,7 @@ hugo
 
 ## 3. Optional Configuration
 
-### 3.1 Table of Content
-
-To enable table of content, you could set `showToc` to `true`.
-
-For example:
-
-```yaml
-showToc: true
-```
-
-### 3.2 Disable Comments on a single post
+### 3.1 Disable Comments on a single post
 
 You can set `enableComments` to `false` in front matter to disable disqus comments on a single post.
 
@@ -175,7 +165,7 @@ enableComments: false
 ---
 ```
 
-### 3.3 Custom CSS and JS
+### 3.2 Custom CSS and JS
 
 You can put your custom css and js files to `static` directory, or use remote css and js files which start with `http://` or `https://`.
 
@@ -190,14 +180,14 @@ customJS:
   - https://example.com/custom.js # remote js
 ```
 
-### 3.4 Math Typesetting
+### 3.3 Math Typesetting
 
 Mathematical notation is enabled by [KaTeX](https://katex.org/).
 
 - To enable KaTex globally set the parameter `math` to `true` in project’s configuration
 - To enable KaTex on a per page basis include the parameter `math` to `true` in content files
 
-### 3.5 Post Summary in Home Page
+### 3.4 Post Summary in Home Page
 
 Set `hiddenPostSummaryInHomePage` to `true` to show the first paragraph on the index page, default is `false`.
 
@@ -208,7 +198,3 @@ hiddenPostSummaryInHomePage: true
 ```
 
 Alternatively, you can add a `description` in the Front Matter to provide bespoke summary.
-
-## License
-
-[MIT](https://github.com/nodejh/hugo-theme-mini/blob/master/LICENSE.md)
