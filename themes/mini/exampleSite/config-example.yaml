@@ -4,7 +4,7 @@ title: Hugo
 theme: hugo-theme-mini
 paginate: 3
 
-# !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
+# !!! exampleSite only, you may need to delete the line: `themesDir: ../../`
 themesDir: ../../
 
 hasCJKLanguage: true
@@ -12,25 +12,19 @@ permalinks:
   posts: /posts/:title/
 
 googleAnalytics: UA-123-45
-disqusShortname: nodejh
-
 
 markup:
   highlight:
     guessSyntax: true
     style: emacs
 
-
 social:
-  github: https://github.com/nodejh
-  twitter: https://github.com/nodejh
-  stackoverflow: https://stackoverflow.com/users/4518882/nodejh
+  github: https://github.com/tophatcroat
 
 
 params:
-  author: nodejh
-  bio: Software Engineer
+  author: TopHatCroat
+  bio: Team Lead
   description: My Blog
   enableRSS: true
-  enableComments: true
   enableGoogleAnalytics: true

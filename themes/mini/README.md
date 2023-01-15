@@ -88,19 +88,7 @@ Default is `en`. Now support:
 
 More about multiple languages: [Multilingual Mode](https://gohugo.io/content-management/multilingual/).
 
-### 2.3 Add Comments
-
-To enable comments, add following to your config file:
-
-- Disqus shortname: `disqusShortname: your-disqus-shortname`
-- Enable Comment:
-
-    ```yaml
-    params:
-      enableComments: true
-    ```
-
-### 2.4 Google Analytics
+### 2.3 Google Analytics
 
 To enable google analytics, add following to your config file:
 
@@ -112,7 +100,7 @@ To enable google analytics, add following to your config file:
       enableGoogleAnalytics: true
     ```
 
-### 2.5 Logo and favicon
+### 2.4 Logo and favicon
 
 You can replace the log in the top of each page and favicon with your own images. To do that put your own logo and favicon into the `images` directory of your website static directory, then named them `avatar.png` and `favicon.ico`. For example:
 
@@ -124,7 +112,7 @@ You can replace the log in the top of each page and favicon with your own images
     └── favicon.ico
 ```
 
-### 2.6 Nearly finished
+### 2.5 Nearly finished
 
 In order to see your site in action, run Hugo's built-in local server.
 
@@ -134,7 +122,7 @@ $ hugo server
 
 Now enter http://localhost:1313 in the address bar of your browser.
 
-### 2.7 Production
+### 2.6 Production
 
 To run in production (e.g. to have Google Analytics show up), run HUGO_ENV=production before your build command. For example:
 
@@ -152,20 +140,7 @@ hugo
 
 ## 3. Optional Configuration
 
-### 3.1 Disable Comments on a single post
-
-You can set `enableComments` to `false` in front matter to disable disqus comments on a single post.
-
-For example:
-
-```yaml
----
-title: Some title
-enableComments: false
----
-```
-
-### 3.2 Custom CSS and JS
+### 3.1 Custom CSS and JS
 
 You can put your custom css and js files to `static` directory, or use remote css and js files which start with `http://` or `https://`.
 
@@ -180,14 +155,14 @@ customJS:
   - https://example.com/custom.js # remote js
 ```
 
-### 3.3 Math Typesetting
+### 3.2 Math Typesetting
 
 Mathematical notation is enabled by [KaTeX](https://katex.org/).
 
 - To enable KaTex globally set the parameter `math` to `true` in project’s configuration
 - To enable KaTex on a per page basis include the parameter `math` to `true` in content files
 
-### 3.4 Post Summary in Home Page
+### 3.3 Post Summary in Home Page
 
 Set `hiddenPostSummaryInHomePage` to `true` to show the first paragraph on the index page, default is `false`.
 
