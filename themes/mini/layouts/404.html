@@ -16,9 +16,9 @@
     </div>
 
   {{ with .Site.Params.readMore }}
-      <h2 class="read-more">{{ . }}</h2> 
+      <h2 class="read-more">{{ . }}</h2>
   {{ else }}
-      <h2 class="read-more">{{ i18n "readMore" }}</h2> 
+      <h2 class="read-more">{{ i18n "readMore" }}</h2>
   {{ end }}
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
@@ -27,8 +27,8 @@
         {{ $date := dateFormat "Jan 2, 2006" .Date }}
         <section class="item">
           <div>
-            <h1 class="title"><a href='{{ .RelPermalink }}'>{{ $title }}</a></h1>   
-            <div class="date">{{ $date }}</div>
+            <h1 class="title"><a href='{{ .RelPermalink }}'>{{ $title }}</a></h1>
+            <time class="date" datetime="{{ .PublishDate }}">{{ i18n "publishDate" . }}</time>
           </div>
         </section>
     {{ end }}

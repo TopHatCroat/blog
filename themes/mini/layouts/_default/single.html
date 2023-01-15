@@ -1,17 +1,17 @@
 {{ define "main" }}
 
-<section id="single">
+<section id="article">
     <h1 class="title">{{ .Title }}</h1>
 
-    <div class="tip">
+    <div class="meta">
         <time datetime="{{ .PublishDate }}">{{ i18n "publishDateFull" . }}</time>
-        <span class="split">
+        <span class="separator">
           ·
         </span>
         <span>
           {{ i18n "wordCount" . }}
         </span>
-        <span class="split">
+        <span class="separator">
           ·
         </span>
         <span>

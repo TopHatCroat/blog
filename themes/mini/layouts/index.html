@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "profile.html" . }}
 
-<div id="list-page">
+<div id="article-list">
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
@@ -32,7 +32,7 @@
           {{ if $paginator.HasPrev }}
               <span class="prev">
                   <a href="{{.Paginator.Prev.URL}}">
-                      <span class="arrow">←</span>
+                      <span>←</span>
                       {{ with .Site.Params.newerPosts }}{{ . }}{{ else }}{{ i18n "postsNewer" }}{{ end }}
                   </a>
             </span>
@@ -42,7 +42,7 @@
               <span class="next">
                   <a href="{{.Paginator.Next.URL}}">
                       {{ with .Site.Params.olderPosts }}{{ . }}{{ else }}{{ i18n "postsOlder" }}{{ end }}
-                      <span class="arrow">→</span>
+                      <span>→</span>
                   </a>
               </span>
           {{ end }}

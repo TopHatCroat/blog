@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "profile.html" . }}
-<section id="tags">
+<section id="tags-list" class="tags">
       {{ $data := .Data }}
       {{ range $key, $value := .Data.Terms.ByCount }}
           {{ if ($value.Name) }}

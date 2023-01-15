@@ -17,7 +17,6 @@
                       <a href="{{ .Permalink }}">
                           {{ .Title }}
                       </a>
-
                       {{ with .Params.tags }}
                           <div class="tags">
                               {{ range . }}
@@ -27,10 +26,8 @@
                       {{ end}}
                   </div>
                 </div>
-            {{ end }}          
+            {{ end }}
         </div>
     {{ end }}
 </section>
-
-
 {{ end }}

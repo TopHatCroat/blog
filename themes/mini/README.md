@@ -1,13 +1,10 @@
 # Hugo Theme Mini
 
-English | [简体中文](https://github.com/nodejh/hugo-theme-mini/tree/master/README-zh_CN.md)
-
 A fast, minimalist and responsive hugo theme.
 
 ![./images/screenshot.png](https://raw.githubusercontent.com/nodejh/hugo-theme-mini/master/images/screenshot.png)
 
-- [Online demo](https://nodejh.github.io/hugo-theme-mini)
-- [Example Site Source](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite)
+- [Example site](https://martinovic.blog)
 
 Features:
 
