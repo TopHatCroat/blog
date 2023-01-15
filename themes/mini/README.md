@@ -155,14 +155,7 @@ customJS:
   - https://example.com/custom.js # remote js
 ```
 
-### 3.2 Math Typesetting
-
-Mathematical notation is enabled by [KaTeX](https://katex.org/).
-
-- To enable KaTex globally set the parameter `math` to `true` in project’s configuration
-- To enable KaTex on a per page basis include the parameter `math` to `true` in content files
-
-### 3.3 Post Summary in Home Page
+### 3.2 Post Summary in Home Page
 
 Set `hiddenPostSummaryInHomePage` to `true` to show the first paragraph on the index page, default is `false`.
 
