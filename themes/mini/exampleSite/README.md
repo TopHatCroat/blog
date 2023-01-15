@@ -8,10 +8,10 @@ This repository offers an example site for [Hugo Theme mini](https://github.com/
 2. Clone this repository
 
     ```bash
-    $ git clone https://github.com/nodejh/hugo-theme-mini
+    $ git clone https://github.com/tophatcroat/izi-hugo-theme
     $ cd exampleSite
     ```
-3. Run Hugo server. The exampleSite use theme `hugo-theme-mini` by setting `themesDir` as `../../`
+3. Run Hugo server. The exampleSite use theme `izi-hugo-theme` by setting `themesDir` as `../../`
 
     ```bash
     $ hugo server
