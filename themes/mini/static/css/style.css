@@ -247,6 +247,12 @@ nav.navigation a.button {
   margin-top: 0;
 }
 
+/* global classes */
+
+.title {
+  font-family: var(--title-font);
+}
+
 /* tages, shown on index page, article */
 
 .tags {
@@ -297,15 +303,6 @@ nav.navigation a.button {
   color: var(--accent-color);
 }
 
-#article-list .date {
-  width: 20%;
-  float: right;
-  text-align: right;
-  position: relative;
-  top: 1px;
-  color: var(--accent-color);
-}
-
 #article-list .summary {
   color: var(--text-secondary);
   margin-top: 12px;
@@ -344,7 +341,6 @@ nav.navigation a.button {
 }
 
 #article .title {
-  font-family: var(--title-font);
   font-size: var(--text-size-xxl);
   line-height: calc(var(--text-size-xxl) * var(--line-height-scalar));
   font-weight: 800;

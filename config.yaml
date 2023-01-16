@@ -2,7 +2,7 @@ baseurl: 'https://martinovic.blog/'
 themesDir: ./themes
 languageCode: en-gb
 defaultContentLanguage: en-gb
-title: Antonio Martinović Blog
+title: Antonio Martinović
 theme: mini
 googleAnalytics: UA-127132219-1
 enableRobotsTXT: true
@@ -15,7 +15,7 @@ params:
   description: >-
     My place to write about interesting stuff and tutorials about programing,
     tech and leadership
-  bio: Software engineer & tech Enthusiast
+  bio: Software Engineer & Tech Enthusiast
   images:
     - images/profile.png
   avatar: profile.png
@@ -29,7 +29,6 @@ params:
   customCSS:
     - css/theme.css
   customJS: []
-
 
   home: ''
   subscribe: ''

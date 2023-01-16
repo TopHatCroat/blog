@@ -11,9 +11,6 @@
           <hr>
           <div>
             <h1 class="title"><a href='{{ .RelPermalink }}'>{{ $title }}</a></h1>
-            <div class ="date">
-                <time datetime="{{ .PublishDate }}">{{ i18n "publishDate" . }}</time>
-            </div>
           </div>
 
           {{ if ne .Site.Params.hiddenPostSummaryInHomePage true }}
