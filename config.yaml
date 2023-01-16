@@ -1,0 +1,44 @@
+baseurl: 'https://martinovic.blog/'
+themesDir: ./themes
+languageCode: en-gb
+defaultContentLanguage: en-gb
+title: Antonio Martinović Blog
+theme: mini
+googleAnalytics: UA-127132219-1
+enableRobotsTXT: true
+PygmentsCodeFences: true
+PygmentsStyle: monokailight
+
+params:
+  author: Antonio Martinović
+  title: Blog by Antonio Martinović
+  description: >-
+    My place to write about interesting stuff and tutorials about programing,
+    tech and leadership
+  bio: Software engineer & tech Enthusiast
+  images:
+    - images/profile.png
+  avatar: profile.png
+  enableRSS: true
+  hiddenPostSummaryInHomePage: true
+  customCSS:
+    - css/theme.css
+  customJS: []
+  home: ''
+  subscribe: ''
+  olderPosts: ''
+  newerPosts: ''
+  readMore: ''
+  copyright: ''
+  aboutAuthor: I'm an eager full stack developer
+  tweet: ''
+  share: ''
+  title404: ''
+  subtitle404: ''
+
+social:
+  email: 'mailto:antonio.martinovic@pm.me'
+  github: 'https://www.github.com/TopHatCroat'
+  linkedin: 'https://www.linkedin.com/in/antonio-martinovi%C4%87-29203210a/'
+  stackoverflow: 'https://stackoverflow.com/users/4828716/antonio-martinovi%c4%87'
+  mastodon: 'https://mastodon.social/@sike'
