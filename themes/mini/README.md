@@ -72,16 +72,13 @@ Take a look inside the [`exampleSite`](https://github.com/nodejh/hugo-theme-mini
 You can set default content language by `defaultContentLanguage`:
 
 ```yaml
-defaultContentLanguage: en
+defaultContentLanguage: en-us
 ```
 
-Default is `en`. Now support:
+Default is `en-gb`. Now support:
 
-- `en`: English
-- `zh`: Chinese
-- `nl`: Dutch
-- `fr`: French
-- `es`: Spanish
+- `en-us`: American English
+- `en-gb`: English
 
 More about multiple languages: [Multilingual Mode](https://gohugo.io/content-management/multilingual/).
 
@@ -163,3 +160,21 @@ hiddenPostSummaryInHomePage: true
 ```
 
 Alternatively, you can add a `description` in the Front Matter to provide bespoke summary.
+
+
+### 3.3 Fonts
+
+You can replace default fonts for article titles and content
+
+```yaml
+  titleFont: 'https://fonts.googleapis.com/css?family=Unna'
+  textFont: 'https://fonts.googleapis.com/css?family=Open+Sans'
+```
+
+And also inside your `customCSS` file, for example `static/css/style.css`, add:
+```css
+:root {
+    --title-font: Unna, serif;
+    --text-font: 'Open Sans', serif;
+}
+```

@@ -19,11 +19,18 @@ params:
   images:
     - images/profile.png
   avatar: profile.png
+
   enableRSS: true
   hiddenPostSummaryInHomePage: true
+
+  titleFont: 'https://fonts.googleapis.com/css?family=Unna'
+  textFont: 'https://fonts.googleapis.com/css?family=Open+Sans'
+
   customCSS:
     - css/theme.css
   customJS: []
+
+
   home: ''
   subscribe: ''
   olderPosts: ''

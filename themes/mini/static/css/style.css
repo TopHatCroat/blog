@@ -7,6 +7,9 @@
   --background-secondary: #EAEAEA;
   --border: #999999;
 
+  --title-font: Unna, serif;
+  --text-font: 'Open Sans', serif;
+
   --text-size-scaler: 4vw;
 
   --text-size-s: 0.8rem;
@@ -20,7 +23,7 @@
 
 body {
   line-height: var(--text-size-xl);
-  font: normal 1.1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: var(--text-font);
   color: var(--text-primary);
   background: var(--background);
 }
@@ -341,16 +344,15 @@ nav.navigation a.button {
 }
 
 #article .title {
-  text-align: center;
+  font-family: var(--title-font);
   font-size: var(--text-size-xxl);
   line-height: calc(var(--text-size-xxl) * var(--line-height-scalar));
-  font-weight: 400;
+  font-weight: 800;
+  margin: 0;
 }
 
 #article .meta {
-  text-align: center;
   color: var(--border);
-  margin-top: 18px;
   font-size: var(--text-size-n);
   line-height: calc(var(--text-size-n) * var(--line-height-scalar));
 }

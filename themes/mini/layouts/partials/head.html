@@ -10,6 +10,14 @@
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 {{ end }}
 
+{{ if .Site.Params.titleFont }}
+  <link rel="stylesheet" href="{{ .Site.Params.titleFont }}">
+{{ end }}
+
+{{ if .Site.Params.textFont }}
+  <link rel="stylesheet" href="{{ .Site.Params.textFont }}">
+{{ end }}
+
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
 
 {{ range .Site.Params.customCSS }}
