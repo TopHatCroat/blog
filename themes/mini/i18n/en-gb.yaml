@@ -1,17 +1,17 @@
 home:
-  other: Home
+  other: HOME
 
 archive:
-  other: Archive
+  other: ARCHIVE
 
 tags:
-  other: Tags
+  other: TAGS
 
 about:
-  other: About
+  other: ABOUT
 
 subscribe:
-  other: Subscribe
+  other: RSS
 
 404title:
   other: 404 - Page Not Found
