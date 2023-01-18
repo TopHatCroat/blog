@@ -16,15 +16,15 @@ to exercise, hike, build and fly FPV racing drones, listen to music and philosop
 Lately I've been working as a engineering manager, which gave me a great chance to do
 mentoring, coaching and leadership and I use this knowledge to constantly improve reev's
 development process as well as working on microservice transformation which includes
-discussing with all stakeholders, from devs to business. 
-Previously, I've been a full stack engineer focusing on Kotlin backend development with 
+discussing with all stakeholders, from devs to business.
+Previously, I've been a full stack engineer focusing on Kotlin backend development with
 Spring Boot, for the web and mobile clients I've worked with React and  React Native
 technologies. I've also been developing my DevOps
 skills with Docker, Kubernetes, GitHub Actions, ArgoCD and Crossplane which taught me to
 appreciate the advantages of CI/CD and GitOps.
 I've also acquired more than 6 years of Android development and Express with NodeJS
-using different software architectures such as MVP and MVVM, leveraging functional paradigms 
-with the help of reactive libraries. 
+using different software architectures such as MVP and MVVM, leveraging functional paradigms
+with the help of reactive libraries.
 During my work I have learned how to use different dialects of SQL (mostly PostgreSQL) and
 I have also used NoSQL database systems such as MongoDB and Elastisearch.
 I have a very good understanding of GNU/Linux and I use it as my daily driver.
@@ -47,9 +47,9 @@ Worked as a software engineer using Kotlin and Spring Boot, TypeScript and React
 
 #### ShoutEm, Zagreb, Croatia - Full stack developer
 *May 2018 - June 2019*<br>
-My involvment with the company involves fixing issues and developing new features for 
+My involvment with the company involves fixing issues and developing new features for
 an mobile application development service. My scope was development of backend services
-using NodeJS and Express, frontend development using React and mobile development using 
+using NodeJS and Express, frontend development using React and mobile development using
 React Native with a bit of work in Cordova and .Net also.
 
 #### Inceptum d.o.o., Zagreb, Croatia - Android developer
@@ -72,7 +72,7 @@ solutions, writing migration scripts and participation in meetings with clients.
 
 ***
 
-### Education 
+### Education
 
 #### Faculty of Organization and Informatics, Varaždin, Croatia - Master of Informatics (in progress)
 *September 2016 - February 2020*<br>
