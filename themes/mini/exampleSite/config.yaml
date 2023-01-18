@@ -1,17 +1,15 @@
 baseURL: https://example.com
 languageCode: en-us
 title: Hugo
-theme: hugo-theme-mini
+theme: izi-hugo-theme
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish), default 'en'
-defaultContentLanguage: en
+defaultContentLanguage: en-us
 
 # !!! exampleSite only, you may need to delete the line: `themesDir: ../../`
 themesDir: ../../
 
 hasCJKLanguage: true
-permalinks:
-  posts: /posts/:title/
 
 paginate: 3
 
@@ -46,7 +44,7 @@ params:
   # Site Author
   author: Author
   # Author biography
-  bio: Software Engineer
+  bio: Your bio
   # Site Description, used in HTML meat
   description: My Blog
 

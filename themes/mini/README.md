@@ -1,8 +1,10 @@
-# Hugo Theme Mini
+# izi Hugo Theme
+
+> 'izi' name come from Croatian spelling of the English work 'eazy'
 
 A fast, minimalist and responsive hugo theme.
 
-![./images/screenshot.png](https://raw.githubusercontent.com/nodejh/hugo-theme-mini/master/images/screenshot.png)
+![./images/screenshot.png](https://raw.githubusercontent.com/tophatcrpat/izi-hugo-theme/master/images/screenshot.png)
 
 - [Example site](https://martinovic.blog)
 
@@ -20,7 +22,8 @@ Features:
 
 ### 1.1 As a Hugo Module (recommended)
 
-> ⚠️ If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform), you may not have Go installed on your machine. To check if Go is installed:
+> ⚠️ If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform),
+> you may not have Go installed on your machine. To check if Go is installed:
 > ```
 > $ go version
 > ```
@@ -36,7 +39,7 @@ Features:
 
     ```yaml
     theme:
-       - github.com/nodejh/hugo-theme-mini
+       - github.com/tophatcroat/izi-hugo-theme
     ```
 
 ### 1.2 As Git Submodule
@@ -44,7 +47,7 @@ Features:
 1. Inside the folder of your Hugo site run:
 
     ```bash
-    $ git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
+    $ git submodule add https://github.com/tophatcroat/izi-hugo-theme.git themes/izi
     ```
 
 2. Add the theme's directory to your `config.yaml`:
@@ -63,7 +66,11 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### 2.1 The config file
 
-Take a look inside the [`exampleSite`](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml). To use it, copy the [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+Take a look inside the [`exampleSite`](https://github.com/tophatcroat/izi-hugo-theme/tree/master/exampleSite) folder of
+this theme. You'll find a file called
+[`config.yaml`](https://github.com/tophatcroat/izi-hugo-theme/blob/master/exampleSite/config.yaml).
+To use it, copy the [`config.yaml`](https://github.com/tophatcroat/izi-hugo-theme/blob/master/exampleSite/config.yaml)
+in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 > ⚠️ You may need to delete the line: `themesDir: ../../`
 
@@ -96,14 +103,16 @@ To enable google analytics, add following to your config file:
 
 ### 2.4 Logo and favicon
 
-You can replace the log in the top of each page and favicon with your own images. To do that put your own logo and favicon into the `images` directory of your website static directory, then named them `avatar.png` and `favicon.ico`. For example:
+You can replace the log in the top of each page and favicon with your own images. To do that put your own logo and
+favicon into the `images` directory of your website static directory, then named them `avatar.png` and `favicon.ico`.
+For example:
 
 ```
 - content
 - static
 └── images
     ├── avatar.png
-    └── favicon.ico
+    └── favicon.svg
 ```
 
 ### 2.5 Nearly finished
@@ -118,7 +127,8 @@ Now enter http://localhost:1313 in the address bar of your browser.
 
 ### 2.6 Production
 
-To run in production (e.g. to have Google Analytics show up), run HUGO_ENV=production before your build command. For example:
+To run in production (e.g. to have Google Analytics show up), run HUGO_ENV=production before your build command.
+For example:
 
 ```bash
 HUGO_ENV=production hugo
@@ -136,7 +146,8 @@ hugo
 
 ### 3.1 Custom CSS and JS
 
-You can put your custom css and js files to `static` directory, or use remote css and js files which start with `http://` or `https://`.
+You can put your custom css and js files to `static` directory, or use remote css and js files which start with
+`http://` or `https://`.
 
 For example:
 
