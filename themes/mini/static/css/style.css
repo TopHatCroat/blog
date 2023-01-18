@@ -254,32 +254,43 @@ nav.navigation a.button {
 /* profile  */
 
 #profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   max-width: var(--space-page-width);
   margin: var(--space-page-vertical) auto 0 auto;
-  text-align: center;
 }
 
-#profile .avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+#profile #avatar {
+  margin-top: calc(var(--text-size-xl) * 0.3);
+  margin-right: var(--space-l);
 }
 
-#profile h1 {
-  font-weight: 400;
-  font-size: var(--text-size-xxl);
-  line-height: calc(var(--text-size-xxl) * var(--line-height-scalar));
-  color: var(--border);
+#profile #avatar img {
+  width: clamp(calc(var(--text-size-xl) * 3), 8vw, calc(var(--text-size-xxl) * 4));
+}
+
+#profile #description {
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile #description h1 {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: clamp(var(--text-size-xl), 8vw, var(--text-size-xxl));
+  line-height: clamp(var(--text-size-xxl), 8vw, var(--text-size-xxl));
+  color: var(--text-primary);
+  white-space: nowrap;
 }
 
-#profile h2 {
-  font-size: var(--text-size-l);
-  line-height: calc(var(--text-size-l) * var(--line-height-scalar));
-  font-weight: 300;
-  color: var(--border);
+#profile #description h2 {
   margin-top: 0;
+  font-size: clamp(var(--text-size-n), 4vw, var(--text-size-l));
+  line-height: clamp(var(--text-size-l), 6vw, var(--text-size-xl));
+  font-weight: 300;
+  color: var(--text-secondary);
 }
 
 /* global classes */

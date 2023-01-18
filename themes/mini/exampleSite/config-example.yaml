@@ -23,8 +23,8 @@ social:
 
 
 params:
-  author: TopHatCroat
-  bio: Team Lead
+  author: Joe Smith
+  bio: Software Engineer
   description: My Blog
   enableRSS: true
   enableGoogleAnalytics: true

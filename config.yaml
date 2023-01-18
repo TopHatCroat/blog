@@ -2,7 +2,6 @@ baseurl: 'https://martinovic.blog/'
 themesDir: ./themes
 languageCode: en-gb
 defaultContentLanguage: en-gb
-title: Antonio Martinović
 theme: mini
 googleAnalytics: UA-127132219-1
 enableRobotsTXT: true
@@ -11,14 +10,11 @@ PygmentsStyle: monokailight
 
 params:
   author: Antonio Martinović
-  title: Blog by Antonio Martinović
-  description: >-
-    My place to write about interesting stuff and tutorials about programing,
-    tech and leadership
-  bio: Software Engineer & Tech Enthusiast
-  images:
-    - images/profile.png
-  avatar: profile.png
+  bio: >-
+    I'm a team lead and tech enthusiast, this is my place for writing about things I find interesting including,
+    development, tech and leadership. I also enjoy listening to jazz while philosophizing about great life questions.
+
+  avatarImage: images/avatar.png
 
   enableRSS: true
   hiddenPostSummaryInHomePage: true
