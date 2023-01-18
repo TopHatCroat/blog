@@ -12,9 +12,9 @@ jobs:
     container: ubuntu
     steps:
       - uses: actions/checkout@v3
-        with:
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0
+      - name: Checkout submodules # get the theme
+        run: |
+          git submodule update --init --recursive
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
