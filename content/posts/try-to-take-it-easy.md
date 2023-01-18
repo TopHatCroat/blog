@@ -2,14 +2,12 @@
 title = "Try to take it easy"
 description = "Working 80 hours a week is not always achieving the results you want"
 tags = [
-"self-improvement",
-"productivity",
-"focus"
+  "self-improvement",
+  "productivity",
+  "focus"
 ]
 date = "2023-01-06"
-[_build]
-list = false
-render = false
+draft = true
 +++
 
 I think that we all want to be good people who try to be nice and help others even though the today’s world makes it

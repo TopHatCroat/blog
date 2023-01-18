@@ -2,13 +2,11 @@
 title = "Mistakes of modern development, vol 1"
 description = "One of the mistakes is changing stack for not good enough reasons"
 tags = [
-    "development",
+  "development",
 	"opinion"
 ]
 date = "2021-05-04"
-[_build]
-list = false
-render = false
+draft = true
 +++
 
 ### You don't need a new stack (probably)
@@ -26,7 +24,7 @@ You might think: "Ahh, this is perfect for something like Elasticsearch or Solr,
 And you are right, Elasticsearch or Solr would be perfect for such a thing, but just using the database still is almost certainly going to be good enough for this small app for now.
 You can implement it much easier, because you don't need to read any significant amount of new documentation, and with less overhead because all that stuff is already there setup and working, so no new bugs to google franticly with deadlines looming.
 
-And anyway, a couple of dozen GBs is not big, thats child's play for modern databases if you use them properly, which means setting up indexes correctly, in a way that they are actually used by your queries and not wasting space by over-indexing. 
+And anyway, a couple of dozen GBs is not big, thats child's play for modern databases if you use them properly, which means setting up indexes correctly, in a way that they are actually used by your queries and not wasting space by over-indexing.
 
 #### Scenario 2: We need event processing
 

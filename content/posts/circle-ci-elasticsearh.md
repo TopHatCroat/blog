@@ -2,7 +2,7 @@
 title = "Setup Elasticsearch on CircleCI"
 description = "How to setup an ES cluster on your Circle CI pipeline to do integration testing"
 tags = [
-    "development",
+  "development",
 	"ci",
 	"devops"
 ]
@@ -22,7 +22,7 @@ jobs:
   build:
     docker:
     - image: circleci/<language>:<version TAG>
-    
+
 	- image: docker.elastic.co/elasticsearch/elasticsearch:7.12.0 #1
       environment:
       - transport.host: localhost #2
@@ -32,7 +32,7 @@ jobs:
       - discovery.type: single-node #6
       - xpack.security.enabled: false #7
       - ES_JAVA_OPTS: "-Xms256m -Xmx256m" #8
-   
+
    steps:
       - checkout
 	  - run: #9
