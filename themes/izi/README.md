@@ -53,7 +53,7 @@ Features:
 2. Add the theme's directory to your `config.yaml`:
 
     ```yaml
-   theme: mini
+   theme: izi
     ```
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.

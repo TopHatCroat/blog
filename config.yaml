@@ -2,7 +2,7 @@ baseurl: 'https://martinovic.blog/'
 themesDir: ./themes
 languageCode: en-gb
 defaultContentLanguage: en-gb
-theme: mini
+theme: izi
 googleAnalytics: UA-127132219-1
 enableRobotsTXT: true
 PygmentsCodeFences: true

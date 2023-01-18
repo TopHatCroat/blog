@@ -1,14 +1,14 @@
 home:
-  other: Home
+  other: HOME
 
 archive:
-  other: Archive
+  other: ARCHIVE
 
 tags:
-  other: Tags
+  other: TAGS
 
 about:
-  other: About
+  other: ABOUT
 
 subscribe:
   other: RSS
@@ -40,11 +40,6 @@ postsNewer:
 
 postsOlder:
   other: Older posts
-
-poweredBy:
-  other: >-
-    Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a
-    href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
 
 publishDateShort:
   other: '{{ .PublishDate.Format "Jan 2" }}'
