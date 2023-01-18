@@ -13,6 +13,7 @@ params:
   bio: >-
     I'm a team lead and tech enthusiast, this is my place for writing about things I find interesting including,
     development, tech and leadership. I also enjoy asking the stupid questions and giving unsolicited advice.
+  description: Blog by Antonio Martinović
 
   avatarImage: images/avatar.png
 
