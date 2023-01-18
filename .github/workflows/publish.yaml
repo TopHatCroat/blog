@@ -12,9 +12,8 @@ jobs:
     container: ubuntu
     steps:
       - uses: actions/checkout@v3
-      - name: Checkout submodules # get the theme
-        run: |
-          git submodule update --init --recursive
+      - name: Checkout the theme
+        uses: textbook/git-checkout-submodule-action@master
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
