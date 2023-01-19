@@ -1,29 +1,36 @@
-name: Publich
+name: Publish
 
 on:
   push:
-    branches: [ master ]
+    branches: [ publish ]
   pull_request:
-    branches: [ master ]
+    branches: [ publish ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ubuntu
     steps:
       - name: Checkout repository
-        uses: actions/checkout@master
-      - name: Checkout the theme
-        uses: textbook/git-checkout-submodule-action@master
+        uses: actions/checkout@v3
+
+      - name: Checkout theme
+        run: git submodule update --init --recursive
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.109.0'
+
       - name: Build
         run: hugo --minify
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/publish' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.BLOG_PUBLISH_SECRET }}
+          external_repository: tophatcroat/tophatcroat.github.io
           publish_dir: ./public
+          user_name: TopHatCroat
+          user_email: antonio.martinovic@pm.me
+          publish_branch: master
