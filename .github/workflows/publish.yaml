@@ -1,10 +1,10 @@
-name: Publich
+name: Publish
 
 on:
   push:
-    branches: [ master ]
+    branches: [ publish ]
   pull_request:
-    branches: [ master ]
+    branches: [ publish ]
 
 jobs:
   build:
