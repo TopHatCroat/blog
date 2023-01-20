@@ -2,3 +2,14 @@
   --accent-color: #8e24aa;
   --accent-color-light: #ab47bc;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color-light: #ffd60a;
+    --text-primary: #f8f9fa;
+    --text-secondary: #dee2e6;
+    --background: #001d3d;
+    --background-secondary: #003566;
+    --border: #6c757d;
+  }
+}
