@@ -1,6 +1,3 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/TopHatCroat/tophatcroat.github.io
 [submodule "themes/izi"]
 	path = themes/izi
 	url = https://github.com/tophatcroat/izi-hugo-theme.git
