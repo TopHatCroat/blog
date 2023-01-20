@@ -1,9 +1,6 @@
 baseurl: 'https://martinovic.blog/'
-themesDir: ./themes
-languageCode: en-gb
 defaultContentLanguage: en-gb
 theme: izi
-googleAnalytics: UA-127132219-1
 enableRobotsTXT: true
 PygmentsCodeFences: true
 PygmentsStyle: monokailight
@@ -15,7 +12,7 @@ params:
     development, tech and leadership. I also enjoy asking the stupid questions and giving unsolicited advice.
   description: Blog by Antonio Martinović
 
-  avatarImage: images/avatar.png
+  avatar: images/avatar.png
 
   enableRSS: true
   hiddenPostSummaryInHomePage: true
@@ -25,19 +22,8 @@ params:
 
   customCSS:
     - css/theme.css
-  customJS: []
 
-  home: ''
-  subscribe: ''
-  olderPosts: ''
-  newerPosts: ''
-  readMore: ''
-  copyright: ''
-  aboutAuthor: I'm an eager full stack developer
-  tweet: ''
-  share: ''
-  title404: ''
-  subtitle404: ''
+  customJS: []
 
 social:
   email: 'mailto:antonio.martinovic@pm.me'
