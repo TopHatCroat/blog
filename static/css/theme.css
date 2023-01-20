@@ -5,6 +5,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --accent-color: #F5BB00;
     --accent-color-light: #ffd60a;
     --text-primary: #f8f9fa;
     --text-secondary: #dee2e6;
