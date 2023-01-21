@@ -5,6 +5,13 @@ enableRobotsTXT: true
 PygmentsCodeFences: true
 PygmentsStyle: monokailight
 
+markup:
+  highlight:
+    # but you can also be speciffic by specifying the language when opening the blog, for example: ```java
+    guessSyntax: true
+    # makes it use CSS clases so colours can be adapted with CSS, for example for dark themes
+    noClasses: false
+
 params:
   author: Antonio Martinović
   bio: >-
