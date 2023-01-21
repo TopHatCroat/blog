@@ -4,6 +4,7 @@ theme: izi
 enableRobotsTXT: true
 PygmentsCodeFences: true
 PygmentsStyle: monokailight
+googleAnalytics: UA-127132219-1
 
 markup:
   highlight:
