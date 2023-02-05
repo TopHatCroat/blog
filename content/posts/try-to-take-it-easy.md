@@ -1,24 +1,24 @@
 +++
 title = "Try to take it easy"
-description = "Working 80 hours a week is not always achieving the results you want"
+description = "We are often putting too much pressure on ourselves and it's not a good approach for life"
 tags = [
   "self-improvement",
   "productivity",
   "focus"
 ]
 date = "2023-01-06"
-draft = true
 +++
 
 I think that we all want to be good people who try to be nice and help others even though the today’s world makes it
-seem like this is not the case. We try to make others’ lives easier by being respectful of their time and not asking
-for much of their attention because we know they are busy people with a bunch of stuff on their minds. Then why are we
-so often not giving the same treatment to ourselves.
+seem like this is not the case. I try to make others’ lives easier by being respectful of their time and not asking
+for much of their attention because I know they are busy people with a bunch of stuff on their minds. But then I've
+found myself asking, why am I so often not giving the same treatment to myself.
 
 Speaking out of my own previous experience, my plans and aspirations were very ambitious, but I did not reach the goals
 that I’ve set for myself, I thought it's because I’m lazy, or because I’m not good enough, but that's not it. No one
-wants to work too much, not only does it make us feel unfulfilled, but it is also stifling our creativity, which, along
-with time, is our other most valuable resource as individuals.
+wants to work too much, and working too long tends to produce very diminishing returns as the focus and effectiveness of
+my work slips, my creativity suffers and, in my opinion, along with time, creativity my most valuable resource as an
+individual.
 
 What helped me arrive to this conclusion was what I read in a book
 [Drive by Daniel H. Pink](https://www.goodreads.com/book/show/6452796-drive) which talks about motivation and how to
