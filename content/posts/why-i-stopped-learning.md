@@ -6,7 +6,7 @@ tags = [
   "productivity",
   "focus"
 ]
-date = "2023-02-15"
+date = "2023-03-24"
 +++
 
 5 years ago when I finished university I was learning something new every day, I was a software engineer and there was,
@@ -44,14 +44,14 @@ every weekend.
 Getting back on track is not an easy process and, much like it went away, getting back takes time. It requires
 self-reflection to identify the source of problem. What often seems to be the case is that the cheese has been moved, as
 stated in the famous
-book [Who Moved My Chese]([https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_](https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_))
+book [Who Moved My Chese](https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese)
 , and we don’t realise it. This is what happened to me, it can come in different forms to each person, for me it was
 that even though my job description changed by quite a bit, I did not adapt my learning direction and just kept learning
 as if what I am doing is still individual contribution, I saw that I needed to change that.
 
 Trying to optimise your learning path, like picking the best resources only, is not something you should be
 overthinking, it’s a sort of
-a [bin packing problem]([https://en.wikipedia.org/wiki/Bin_packing_problem](https://en.wikipedia.org/wiki/Bin_packing_problem))
+a [bin packing problem](https://en.wikipedia.org/wiki/Bin_packing_problem)
 , but with time and it’s virtually impossible to have an optimal progression path. What is important is that what you
 learn you can immediately try out, not only will this ensure the lessons stick, but it will also give a huge motivation
 boost to keep at it.
