@@ -8,7 +8,7 @@ tags = [
 date = "2023-06-22"
 +++
 
-### The biggest challenge with new leaders is letting go
+# The biggest challenge with new leaders is letting go
 
 If you are in the top end of seniority in your team or company, either in
 technical or domain aspects, chances are you will quickly understand the issue
