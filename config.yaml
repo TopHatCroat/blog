@@ -6,6 +6,14 @@ PygmentsCodeFences: true
 PygmentsStyle: monokailight
 googleAnalytics: G-9KTDTQ6HHZ
 
+title: Antonio Martinović blog
+
+author:
+  name: Antonio Martinović
+  email: martinovic.antonio@gmail.com
+
+copyright: 'Copyright'
+
 markup:
   highlight:
     # but you can also be speciffic by specifying the language when opening the blog, for example: ```java
@@ -14,7 +22,6 @@ markup:
     noClasses: false
 
 params:
-  author: Antonio Martinović
   bio: >-
     I'm a team lead and tech enthusiast, this is my place for writing about things I find interesting including,
     development, tech and leadership. I also enjoy asking the stupid questions and giving unsolicited advice.
