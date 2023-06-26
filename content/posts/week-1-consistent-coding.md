@@ -6,7 +6,7 @@ tags = [
   "productivity",
   "focus"
 ]
-date = "2023-05-25"
+date = "2023-06-25"
 +++
 
 # The problem
