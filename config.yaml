@@ -27,6 +27,8 @@ params:
     development, tech and leadership. I also enjoy asking the stupid questions and giving unsolicited advice.
   description: Blog by Antonio Martinović
 
+  editUrl: https://github.com/tophatcroat/blog/tree/master
+
   avatar: images/avatar.png
 
   enableRSS: true
